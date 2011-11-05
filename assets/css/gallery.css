@@ -1,0 +1,23 @@
+/* CSS document by AG Dizajn - www.agdizajn.com */
+
+ul#gallery{
+	list-style: none;
+}
+
+ul#gallery li img{
+	border: 1px #000 solid;
+	padding: 1px;
+}
+
+ul#gallery .prev, ul#gallery .next{
+	font-weight: bold;
+}
+
+ul#gallery .prev:hover, ul#gallery .next:hover{
+	cursor: pointer;
+	color: #333;
+}
+
+ul#gallery #stat{
+	margin-left: 10px;
+}
